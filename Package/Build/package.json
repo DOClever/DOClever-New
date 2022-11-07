@@ -1,0 +1,17 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "desktop": "node desktop.js",
+    "server": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^2.1.1",
+    "decompress": "^4.2.0",
+    "fs-extra": "^5.0.0"
+  }
+}

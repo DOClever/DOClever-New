@@ -1,0 +1,4 @@
+import api=require("../../../Common/routes/interface")
+import generate=require("./base")
+const req={	create:generate(api.create),	remove:generate(api.remove),	destroy:generate(api.destroy),	move:generate(api.move),	item:generate(api.item),	share:generate(api.share),	exportJSON:generate(api.exportJSON),	importJSON:generate(api.importJSON),	editSnapshot:generate(api.editSnapshot),	snapshotList:generate(api.snapshotList),	removeSnapshot:generate(api.removeSnapshot),	snapshotRoll:generate(api.snapshotRoll),	notify:generate(api.notify),	merge:generate(api.merge),	docRef:generate(api.docRef),	param:generate(api.param),}
+export =req

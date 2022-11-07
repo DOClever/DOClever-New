@@ -1,0 +1,45 @@
+{
+  "name": "doclever",
+  "version": "1.0.13",
+  "description": "doclever",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "doclever",
+    "api",
+    "interface"
+  ],
+  "author": "sunxin",
+  "license": "ISC",
+  "bin": {
+    "doclever": "./bin/doclever-server"
+  },
+  "engines": {
+    "node": ">= 7.6.0"
+  },
+  "dependencies": {
+    "cliff": "~0.1.9",
+    "clone": "^1.0.2",
+    "colors": "~0.6.2",
+    "decompress": "^4.2.0",
+    "flatiron": "~0.4.2",
+    "forever-monitor": "~1.7.0",
+    "fs-extra": "^5.0.0",
+    "lei-download": "^1.0.2",
+    "nconf": "~0.6.9",
+    "nssocket": "~0.5.1",
+    "object-assign": "^3.0.0",
+    "optimist": "~0.6.0",
+    "path-is-absolute": "~1.0.0",
+    "prettyjson": "^1.1.2",
+    "request": "^2.85.0",
+    "shelljs": "^0.8.1",
+    "shush": "^1.0.0",
+    "timespan": "~2.3.0",
+    "utile": "~0.2.1",
+    "winston": "~0.8.1",
+    "yargs": "^11.0.0"
+  }
+}

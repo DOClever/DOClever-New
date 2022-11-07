@@ -1,0 +1,4 @@
+import api=require("../../../Common/routes/doc")
+import generate=require("./base")
+const req={	editProject:generate(api.editProject),	projectList:generate(api.projectList),	project:generate(api.project),	removeProject:generate(api.removeProject),	editGroup:generate(api.editGroup),	removeGroup:generate(api.removeGroup),	editDoc:generate(api.editDoc),	doc:generate(api.doc),	removeDoc:generate(api.removeDoc),	moveGroup:generate(api.moveGroup),	moveDoc:generate(api.moveDoc),	addUser:generate(api.addUser),	removeUser:generate(api.removeUser),	editUser:generate(api.editUser),	quit:generate(api.quit),	setOwner:generate(api.setOwner),	structure:generate(api.structure),	filterStructure:generate(api.filterStructure),	filterList:generate(api.filterList),	handleApply:generate(api.handleApply),	interface:generate(api.interface),	interfaceInfo:generate(api.interfaceInfo),	exportpdf:generate(api.exportpdf),}
+export =req

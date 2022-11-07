@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "../../../DOClever-Build/build",
+    "module": "commonjs",
+    "target": "ES2017",
+    "sourceMap": true,
+    "resolveJsonModule":true,
+    "moduleResolution":"node",
+    "noImplicitUseStrict":true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "plugins": [
+      { "transform": "../Common/transform/transformer" }
+    ]
+  },
+  "include": [
+    "./bin/**/*",
+    "./event/**/*",
+    "./model/**/*",
+    "./patch/**/*",
+    "./routes/**/*",
+    "./socket/**/*",
+    "./third/**/*",
+    "./util/**/*",
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

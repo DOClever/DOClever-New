@@ -1,0 +1,272 @@
+{
+  "ok":{
+    "code": 200,
+    "ch": "操作完成",
+    "en": "operation success"
+  },
+  "userNotFound":{
+    "code": 1,
+    "ch": "找不到用户",
+    "en": "can't find user"
+  },
+  "userOrPwdWrong":{
+    "code": 2,
+    "ch": "用户名或者密码错误",
+    "en": "username or password is wrong"
+  },
+  "missParam":{
+    "code": 3,
+    "ch": "缺少参数",
+    "en": "miss param"
+  },
+  "methodNotFound":{
+    "code": 4,
+    "ch": "方法找不到",
+    "en": "method is not found"
+  },
+  "systemReason":{
+    "code": 5,
+    "ch": "系统错误",
+    "en": "system reason"
+  },
+  "paramWrong":{
+    "code": 6,
+    "ch": "参数错误",
+    "en": "param is wrong"
+  },
+  "userForbidden":{
+    "code": 7,
+    "ch": "操作被禁止",
+    "en": "user operation is forbidden"
+  },
+  "userExists":{
+    "code": 8,
+    "ch": "用户已经存在",
+    "en": "user is exists"
+  },
+  "registerFail":{
+    "code": 9,
+    "ch": "注册失败",
+    "en": "register operation is failed"
+  },
+  "unknowErr":{
+    "code": 10,
+    "ch": "未知错误",
+    "en": "error is unknown"
+  },
+  "validateParamFail":{
+    "code": 11,
+    "ch": "验证参数失败",
+    "en": "validate param is failed"
+  },
+  "paramTypeWrong":{
+    "code": 12,
+    "ch": "参数类型错误",
+    "en": "param type is wrong"
+  },
+  "userNotLogin":{
+    "code": 13,
+    "ch": "用户未登录",
+    "en": "user is not login"
+  },
+  "projectNotFound":{
+    "code": 14,
+    "ch": "项目未找到",
+    "en": "project is not found"
+  },
+  "groupNotFound":{
+    "code": 15,
+    "ch": "分组未找到",
+    "en": "group is not found"
+  },
+  "interfaceNotFound":{
+    "code": 16,
+    "ch": "接口为找到",
+    "en": "interface is not found"
+  },
+  "duplicateUser":{
+    "code": 17,
+    "ch": "用户重复",
+    "en": "user is duplicated"
+  },
+  "duplicateName":{
+    "code": 18,
+    "ch": "名称重复",
+    "en": "name is duplicated"
+  },
+  "interfaceChanged":{
+    "code": 19,
+    "ch": "接口变动",
+    "en": "interface is changed"
+  },
+  "questionIsEmpty":{
+    "code": 20,
+    "ch": "问题为空",
+    "en": "question is empty"
+  },
+  "statusNotFound":{
+    "code": 21,
+    "ch": "状态未找到",
+    "en": "status is not found"
+  },
+  "testNotFound":{
+    "code": 22,
+    "ch": "用例未找到",
+    "en": "test is not found"
+  },
+  "testModuleNotFound":{
+    "code": 23,
+    "ch": "用例模块未找到",
+    "en": "test module is not found"
+  },
+  "testGroupNotFound":{
+    "code": 24,
+    "ch": "用例分组未找到",
+    "en": "test group not found"
+  },
+  "userInProject":{
+    "code": 25,
+    "ch": "用户已经在项目里",
+    "en": "user is in project"
+  },
+  "userNotInTeam":{
+    "code": 26,
+    "ch": "用户不在 ",
+    "en": "user is not in team"
+  },
+  "teamGroupNotEmpty":{
+    "code": 27,
+    "ch": "团队分组不为空",
+    "en": "team group is not empty"
+  },
+  "teamGroupNotFound":{
+    "code": 28,
+    "ch": "团队分组未找到",
+    "en": "team group is not found"
+  },
+  "applyNotFound":{
+    "code": 29,
+    "ch": "申请未找到",
+    "en": "apply is not found"
+  },
+  "applyAlreadyHandle":{
+    "code": 30,
+    "ch": "申请已经处理过了",
+    "en": "apply has already been handled"
+  },
+  "userAlreadyInTeam":{
+    "code": 31,
+    "ch": "用户已经在团队中",
+    "en": "user has already been in team"
+  },
+  "projectAlreadyJoinTeam":{
+    "code": 32,
+    "ch": "项目已经在团队中",
+    "en": "project has already joined team"
+  },
+  "teamNotFound":{
+    "code": 33,
+    "ch": "团队不存在",
+    "en": "team is not found"
+  },
+  "versionNotFound":{
+    "code": 34,
+    "ch": "版本不存在",
+    "en": "version is not found"
+  },
+  "versionInvalidate":{
+    "code": 35,
+    "ch": "版本不可用",
+    "en": "version is invalidate"
+  },
+  "pollNotFound":{
+    "code": 36,
+    "ch": "轮询不存在",
+    "en": "poll is not found"
+  },
+  "articleNotFound":{
+    "code": 37,
+    "ch": "文档不存在",
+    "en": "article is not found"
+  },
+  "userNotInProject":{
+    "code": 38,
+    "ch": "用户不在项目里",
+    "en": "user is not in project"
+  },
+  "interfaceDuplicate":{
+    "code": 39,
+    "ch": "接口重复",
+    "en": "interface is duplicated"
+  },
+  "adminNotFound":{
+    "code": 40,
+    "ch": "管理员不存在",
+    "en": "admin is not found"
+  },
+  "passwordWrong":{
+    "code": 41,
+    "ch": "密码错误",
+    "en": "password is wrong"
+  },
+  "templateNotFound":{
+    "code": 42,
+    "ch": "模板不存在",
+    "en": "template is not found"
+  },
+  "exampleNotFound":{
+    "code": 43,
+    "ch": "实例不存在",
+    "en": "example is not found"
+  },
+  "registerForbidden":{
+    "code": 44,
+    "ch": "不允许注册",
+    "en": "register operation is forbidden"
+  },
+  "docProjectNotFound":{
+    "code": 45,
+    "ch": "文档项目不存在",
+    "en": "doc project is not found"
+  },
+  "docGroupNotFound":{
+    "code": 46,
+    "ch": "文档分组不存在",
+    "en": "doc group is not found"
+  },
+  "docNotFound":{
+    "code": 47,
+    "ch": "文档不存在",
+    "en": "doc is not found"
+  },
+  "userAlreadyInDoc":{
+    "code": 48,
+    "ch": "用户已经在文档中",
+    "en": "user has already been in doc"
+  },
+  "userNotInDoc":{
+    "code": 49,
+    "ch": "用户不在文档中",
+    "en": "user is not in doc"
+  },
+  "userAlreadyInTest":{
+    "code": 50,
+    "ch": "用户已经在用例中",
+    "en": "user has already been in test"
+  },
+  "userNotInTest":{
+    "code": 51,
+    "ch": "用户不在用例中",
+    "en": "user is not in test"
+  },
+  "testProjectNotFound":{
+    "code": 52,
+    "ch": "测试项目未找到",
+    "en": "test project is not found"
+  },
+  "testCollectionNotFound":{
+    "code": 53,
+    "ch": "测试集合不存在",
+    "en": "test collection is not found"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "presets": [["es2015", {"loose": true}] ,"babel-preset-stage-3"],
+  "plugins": ["transform-vue-jsx",
+    [
+      {
+        "helpers": false,
+        "polyfill": false,
+        "regenerator": true,
+        "moduleName": "babel-runtime"
+      }
+    ]
+  ]
+}
